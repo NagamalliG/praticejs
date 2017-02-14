@@ -1,7 +1,3 @@
-var myNameArray = ['Chris', 'high'];
-var myNumberArray = [10, 15, 40];
-
-
 // Your JavaScript goes here
 var randomNumber = Math.floor(Math.random() * 10) + 1;
 var guesses = document.querySelector('.guesses');
@@ -69,3 +65,37 @@ function resetGame() {
     lastResult.style.backgroundColor = 'white';
     randomNumber = Math.floor(Math.random() * 100) + 1;
 }
+
+//pratice
+var myNumber = [123, 124];
+var add = { abc: '1234' };
+var bool = true;
+var num = 1.8;
+var bigmouth = 'I\'ve got no right to take my place...';
+var myString = 'abc';
+var myNum = Number(myString);
+var browserType = 'mozilla     ';
+
+var sequence = [1, 1, 2, 3, 5, 8, 13];
+var random = ['tree', 795, [0, 1, 2]];
+var myData = 'Manchester,London,Liverpool,Birmingham,Leeds,Carlisle';
+var myarr = myData.split(',');
+console.log('myarr=' + myarr[0]);
+var myArray = ['Manchester', 'London', 'Liverpool', 'Birmingham', 'Leeds', 'Carlisle'];
+myArray.pop(); //delete the latest value in any arry
+myArray.push('Cardiff'); //put new data into an arry
+myArray.unshift('London'); // move the spcified the value to one step back
+myArray.shift(); // move the unshift  value to one step forward
+console.log('myArray=' + myArray);
+random[0] = 'malli';
+console.log(random);
+console.log(random[2][1]);
+console.log(browserType.indexOf('zilla'));
+console.log(browserType.length - 1);
+console.log(browserType[0]);
+console.log(typeof(myNum));
+console.log(bigmouth);
+console.log(typeof(myNumber));
+console.log(typeof(add));
+console.log(typeof(bool));
+console.log(typeof(num));
